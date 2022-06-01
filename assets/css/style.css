@@ -983,6 +983,22 @@ section .container {
 .contact .php-email-form button[type=submit]:hover {
   background: #15bb62;
 }
+.button-cta-wrapper a{
+  background: #18d26e;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+.button-cta-wrapper a:hover {
+  background: #15bb62;
+}
+.wrapper-grayshade {
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
