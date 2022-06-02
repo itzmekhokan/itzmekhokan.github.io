@@ -998,6 +998,29 @@ section .container {
   padding: 30px;
   background: rgba(255, 255, 255, 0.08);
 }
+.mapbox iframe {
+  width: 100%;
+  border: none;
+  filter: grayscale(1) invert(1);
+}
+.download-cv {
+  float: right;
+/*  font-size: 16px;
+  font-weight: normal;
+  margin-top: 16px;*/
+}
+
+/*@media (min-width:320px)  { 
+  .download-cv {
+    text-align: center!important;
+  }
+}*/
+@media (max-width:480px)  { 
+  .download-cv {
+    text-align: center!important;
+    float: none;
+  }
+}
 
 @-webkit-keyframes animate-loading {
   0% {
